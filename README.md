@@ -22,10 +22,10 @@ cd NanostringGeoMx
 ## What you will need: 
 
 datadir: The path to a directory containing:
-    
-    - .dcc files from Nanostring GeoMx sequencer
-    - .pkc file, also provided by NanoString. This can be downloaded from their website directly
-    - .xlsx file of the sample metadata, containing column "Sample_ID" to match to DCC file identifiers
+
+  - .dcc files from Nanostring GeoMx sequencer
+  - .pkc file, also provided by NanoString. This can be downloaded from their website directly
+  - .xlsx file of the sample metadata, containing column "Sample_ID" to match to DCC file identifiers
 
 out_dir: for each script, you will specify the output directory you would like to save any files to
 
