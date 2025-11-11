@@ -1,4 +1,4 @@
-#A Pipeline for Analysis of NanoString GeoMx Spatial Transcriptomics:
+# A Pipeline for Analysis of NanoString GeoMx Spatial Transcriptomics:
 
 Steps Included in this analysis: 
 
@@ -9,7 +9,7 @@ Steps Included in this analysis:
 5. Weighted Gene Correlation Network Analysis (WGCNA) using TMM and voom normalization with generalized estimation equation (GEE)
 6. Visualizations for Differential Expression results and WGCNA, including gene-module membership
 
-##To use and edit the code in this repository: 
+## To use and edit the code in this repository: 
 
 ```bash
 
@@ -19,7 +19,7 @@ cd NanostringGeoMx
 
 ```
 
-##What you will need: 
+## What you will need: 
 
 datadir: The path to a directory containing:
        - .dcc files from Nanostring GeoMx sequencer
@@ -28,7 +28,7 @@ datadir: The path to a directory containing:
 
 out_dir: for each script, you will specify the output directory you would like to save any files to
 
-##Required R Packages: 
+## Required R Packages: 
 
 NanoStringNCTools
 GeomxTools
