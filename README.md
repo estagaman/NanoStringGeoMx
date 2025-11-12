@@ -31,21 +31,21 @@ out_dir: for each script, you will specify the output directory you would like t
 
 ## Required R Packages: 
 
-NanoStringNCTools
-GeomxTools
-GeoMxWorkflows
-limma 
-edgeR
-preprocessCore
-tidyverse
-dplyr
-glmtoolbox
-geesmv
-WGCNA
-umap
-rtsne
-pheatmap
-readxl
-ggplotify
-grid
-data.table       
+  NanoStringNCTools
+  GeomxTools
+  GeoMxWorkflows
+  limma 
+  edgeR
+  preprocessCore
+  tidyverse
+  dplyr
+  glmtoolbox
+  geesmv
+  WGCNA
+  umap
+  rtsne
+  pheatmap
+  readxl
+  ggplotify
+  grid
+  data.table       
