@@ -5,8 +5,8 @@ Steps Included in this analysis:
 1. Quality Control using NanoString GeoMx pipeline
 2. Normalization using quantile normalization, TMM, or log cpm normalization provided by voom
 3. Global visualization using UMAP, tSNE, and heatmap, with confidence interval ellipses between treatment groups
-4. Differential Expression Analysis using TMM and voom normalization with generalized estimation equations (GEE)
-5. Weighted Gene Correlation Network Analysis (WGCNA) using TMM and voom normalization with generalized estimation equation (GEE)
+4. Differential Expression Analysis using TMM and voom normalization with generalized estimating equation (GEE)
+5. Weighted Gene Correlation Network Analysis (WGCNA) using TMM and voom normalization with generalized estimating equation (GEE)
 6. Visualizations for Differential Expression results and WGCNA, including gene-module membership
 
 ## To use and edit the code in this repository: 
