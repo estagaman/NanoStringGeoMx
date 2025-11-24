@@ -84,7 +84,6 @@ metadata_save <- metadata
 ########## FILTERING STEP ##########
 
 ##ok, I just want to test keratinocyte ROIs, so I am filtering for that here
-filter = "Keratinocyte"
 metadata <- subset(metadata, Custom_CellType == filter)
 counts <- counts[ ,metadata$Sample_ID]
 
@@ -111,7 +110,7 @@ counts <- counts[keep, ]
 
 ##Now, I am going to voom-transform the counts to log counts per million
 #Note: voom also computes "precision weights" which account for differences in variance across each sample
-#this can help account for heteroskedasticity, as these weights can be plugged back into the model 
+#this can help account for heteroscedasticity, as these weights can be plugged back into the model 
 
 dge <- DGEList(counts = counts) #convert to DGE List
 
